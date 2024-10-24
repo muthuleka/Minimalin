@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+   height: 30%;
+}
+body{
+    font-size: large;
+    font-family: var(--ltn__heading-font);
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-menu{
+    display: flex;
+    gap: 20px;
+}
+.navicons{
+    display: flex;
+    gap: 20px;
+}
