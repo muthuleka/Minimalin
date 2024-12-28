@@ -167,6 +167,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     margin: 40px auto;
+    margin-bottom: 20px;
 }
 .product{
     width: 100%;
@@ -410,10 +411,11 @@ body{
 }
 .cls-2{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 40px 0;
     font-family: var(--ltn__heading-font);
     font-size: 25px;
+    padding: 0px 20px;
 }
 .feature_btn{
     width: 100%;
@@ -424,13 +426,13 @@ body{
     padding: 20px 40px;
 }
 .btn-13{
-    width: 200px;
+    width: 150px;
     height: 50px;
     font-size: large;
     background-color: rgb(10,133,209);
     border-radius: 10px;
     color: white;
-    font-size: medium;
+    font-size: 15px;
     border: none;
 }
 .btn-13:hover{
@@ -457,17 +459,23 @@ body{
     height:250px;
     border-radius: 10px;
 }
+.new-btn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px 20px;
+}
 .btn-19{
-    width: 50%;
+    width: 150px;
     height: 50px;
     font-size: large;
     background-color: rgb(10,133,209);
     border-radius: 10px;
     color: white;
-    font-size: medium;
+    font-size: 15px;
     border: none;
-    flex-direction: row;
-    align-items: center;
 }
 .btn-19:hover{
     background: none ;
@@ -482,6 +490,7 @@ body{
     margin: 40px 0;
     font-family: var(--ltn__heading-font);
     font-size: 25px; 
+    padding: 0px 30px;
 }
 .btn-14{
     width: 65px;
@@ -546,10 +555,11 @@ body{
 
 .blog{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 40px 0;
     font-family: var(--ltn__heading-font);
     font-size: 25px; 
+    padding: 0px 30px;
 }
 .collection-3{
     width: 95%;
@@ -850,7 +860,7 @@ body{
         flex-direction: column;
         gap: 20px;
         top: 40%;
-        left: 60px;
+        left:40px;
 
     }
     
@@ -877,7 +887,7 @@ body{
         background-color: white;
         border-radius: 5px;
         color: black;
-        font-size: medium;
+        font-size: 13px;
         border: rgb(136, 132, 132) 1px solid;
     }
     
@@ -891,14 +901,14 @@ body{
             background-color: white;
             border-radius: 10px;
             color: black;
-            font-size: medium;
+            font-size: 15px;
             border: rgb(136, 132, 132) 1px solid;
     } 
     .btn-2:hover{
         background: rgb(110, 110, 181)  ;
     }
     .model-1{
-        font-size: 10px;
+        font-size: 13px;
     }
     .model-1:hover{
         color: rgb(10,133,209);
@@ -916,7 +926,7 @@ body{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
-        padding: 20px;
+        padding: 0px;
     }
     .cls{
         width: 100%;
@@ -926,7 +936,7 @@ body{
         align-items: center;
         margin: 0px auto;
         padding: 0px 40px;
-        background-color: aqua;
+        
     }
     .h2{
         font-size: 35px;
@@ -939,6 +949,8 @@ body{
         height: auto;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         /* position: relative; */
         padding: 20px;
     }
@@ -1080,14 +1092,15 @@ body{
         padding: 20px 20px;
     }
     .btn-7{
-        width: 150px;
-        height: 50px;
+        width: 100px;
+        height: 40px;
         font-size: large;
         background-color: rgb(10,133,209);
-        border-radius: 10px;
+        border-radius: 5px;
         color: white;
         font-size: medium;
         border: none;
+        font-size:15px;
         
     }
     .btn-7:hover{
@@ -1145,8 +1158,8 @@ body{
         border-radius: 10px;
         display: flex;
         gap: 20px;
-        padding: 20px;
-       display:grid;
+        padding: 0px;
+        display:grid;
         grid-template-columns: repeat(1,1fr);
     }
     
@@ -1205,16 +1218,16 @@ body{
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-        padding: 20px 40px;
+        padding: 20px 20px;
     }
     .btn-13{
-        width: 150px;
-        height: 50px;
+        width: 100px;
+        height: 40px;
         font-size: large;
         background-color: rgb(10,133,209);
         border-radius: 10px;
         color: white;
-        font-size: medium;
+        font-size: 15px;
         border: none;
     }
     .btn-13:hover{
@@ -1249,7 +1262,7 @@ body{
         background-color: rgb(10,133,209);
         border-radius: 10px;
         color: white;
-        font-size: medium;
+        font-size: 20px;
         border: none;
         flex-direction: row;
         align-items: center;
@@ -1336,6 +1349,16 @@ body{
         justify-content: flex-start;
         padding: 20px 20px;
     }
+    .btn-19{
+        width: 100px;
+        height: 40px;
+        font-size: large;
+        background-color: rgb(10,133,209);
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        border: none;
+    }
     .blog{
         display: flex;
         justify-content: flex-start;
@@ -1407,35 +1430,37 @@ body{
         margin-top: 25px;
     }
     .collection-4{
-        width: 95%;
+        width: 100%;
         /* height: 100%; */
         margin: 0 auto;
         border-radius: 10px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 20px;
+        gap: 10px;
+        padding: 10px 10px;
        
     }
     .follow{
         width: 100%;
-        height: 100px;
+        height: 50px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         gap: 10px;
         margin-top: 50px;
+        
     }
     .img-6{
-        width: 100%;
-        height:220px;
+        width: 150px;
+        height:200px;
         border-radius: 10px;
+        background-color: blue;
     }
-    
     
     .insta{
        display: flex;
        justify-content: center;
-       font-size: 35px;
+       font-size: 25px;
     }
     .theme{
         display: flex;
@@ -1463,15 +1488,18 @@ body{
         margin-left: 0px;
         gap: 10px;
         font-style: normal;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 400;
         line-height: 1.3;
         font-family: var(--ltn__heading-font);
         padding-top: 0px;
         padding-bottom: 0px;
     }
+    .footercontent p {
+        font-size: 16px;
+    }
     .safe{
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 700;
         line-height: 1.3;
     }
@@ -1485,37 +1513,37 @@ body{
         word-spacing: 0px;
         margin-left: 0px;
         font-style: normal;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 1;
         font-family: var(--ltn__heading-font);
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 0px;
     }
     .part-2{
         width: 100%;
-        height: 100%;
+        height: auto;
         word-spacing: 0px;
         margin-left: 0px;
         font-style: normal;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 1;
         font-family: var(--ltn__heading-font);
-        padding-top: 30px;
+        padding-top: 0px;
         padding-bottom: 0px;
     }
     .part-3{
         width: 100%;
-        height: 100%;
+        height: auto;
         word-spacing: 0px;
         margin-left: 0px;
         font-style: normal;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 1;
         font-family: var(--ltn__heading-font);
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 0px;
     }
     .mini{
@@ -1527,6 +1555,7 @@ body{
         justify-content:flex-start;
         padding-bottom: 20px;
         align-items: center;
+        font-size: 16px;
     }
     
     
